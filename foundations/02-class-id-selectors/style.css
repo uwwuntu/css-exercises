@@ -1,0 +1,19 @@
+.b-class {
+    background-color: rgb(255, 0, 0, 0.3);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.b-class.cooler {
+    font-size: 24px;
+}
+
+#no2 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#no4 {
+    background-color: rgb(0, 255, 0, 0.5);
+    font-size: 24px;
+    font-weight: 700;
+}
