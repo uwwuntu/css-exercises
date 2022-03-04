@@ -5,10 +5,17 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+/*next 2 lines are added by me to change the view to column flex*/
+  display: flex;
+  flex-direction: column;
+  
 }
 
 img {
   width: 600px;
+
+/*added by me*/
+  margin-bottom: 12px;
 }
 
 button {
@@ -16,6 +23,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /*added by me*/
+  padding: 12px;
 }
 
 input {
@@ -24,4 +34,45 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/*my solution*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 30px;
+  
+}
+
+ul.left-links{
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.header, .footer{
+  padding: 10px 30px;
+  height: 30px;
+  width: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.content{
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
